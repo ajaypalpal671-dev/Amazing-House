@@ -35,7 +35,7 @@ export const Hero: React.FC<HeroProps> = ({ config, onOpenBooking }) => {
       <div className="absolute inset-0 z-0">
         <img
           src={hotelBuildingImg}
-          alt="Mazing House Hotel in Rohini Sector-25 Delhi"
+          alt="New Amazing House Hotel in Rohini Sector-25 Delhi"
           className="w-full h-full object-cover object-center brightness-35 transform scale-105 transition-transform duration-1000"
           referrerPolicy="no-referrer"
         />

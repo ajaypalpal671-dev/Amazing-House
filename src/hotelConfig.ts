@@ -15,13 +15,14 @@ import hotelBathroomImg from './assets/images/hotel_attached_bathroom_1787743432
 
 export const HOTEL_CONFIG: HotelConfig = {
   // Hotel name
-  hotelName: "Mazing House", 
+  hotelName: "New Amazing House", 
   
   tagline: "Clean, comfortable and air-conditioned rooms at affordable prices.",
   
-  // Hotel Address in Rohini Sector-25
-  address: "Rohini Sector-25, Delhi, India",
-  locality: "Rohini Sector-25",
+  // Hotel Address & Exact Location
+  address: "Property Number 195, Block E, near Delhi School of Professional Studies And Research, Rohini Sector-25, Delhi, 110085, India",
+  locality: "Block E, Rohini Sector-25",
+  landmark: "Near Delhi School of Professional Studies And Research (DSPSR)",
   city: "Delhi",
   state: "Delhi",
   country: "India",
@@ -38,9 +39,9 @@ export const HOTEL_CONFIG: HotelConfig = {
   // Hotel Email Address
   email: "contact@mazinghouse.com",
   
-  // Google Maps Link (replace with your actual Google Maps pin URL)
-  googleMapsUrl: "https://maps.google.com/?q=Rohini+Sector-25+Delhi+India",
-  googleMapsEmbedQuery: "Rohini Sector-25, Delhi, India",
+  // Google Maps Link & Embed Query
+  googleMapsUrl: "https://maps.google.com/?q=Property+Number+195+Block+E+near+Delhi+School+of+Professional+Studies+And+Research+Delhi+110085",
+  googleMapsEmbedQuery: "Property Number 195, Block E, near Delhi School of Professional Studies And Research, Delhi, 110085",
   
   // Room Count & Rates
   totalRooms: 16,
@@ -151,14 +152,14 @@ export const HOTEL_GALLERY: GalleryPhoto[] = [
     title: "Standard AC Bedroom",
     category: "rooms",
     imageUrl: standardRoomImg,
-    altText: "Clean air-conditioned standard room with double bed and TV at Mazing House"
+    altText: "Clean air-conditioned standard room with double bed and TV at New Amazing House"
   },
   {
     id: "gal-2",
     title: "Deluxe AC Bedroom & Desk",
     category: "rooms",
     imageUrl: deluxeRoomImg,
-    altText: "Spacious deluxe bedroom with comfortable bed and wooden furniture at Mazing House"
+    altText: "Spacious deluxe bedroom with comfortable bed and wooden furniture at New Amazing House"
   },
   {
     id: "gal-3",
@@ -172,7 +173,7 @@ export const HOTEL_GALLERY: GalleryPhoto[] = [
     title: "Hotel Building Exterior",
     category: "exterior",
     imageUrl: hotelExteriorImg,
-    altText: "Mazing House hotel building facade in Rohini Sector-25 Delhi"
+    altText: "New Amazing House hotel building facade in Rohini Sector-25 Delhi"
   },
   {
     id: "gal-5",
@@ -186,7 +187,7 @@ export const HOTEL_GALLERY: GalleryPhoto[] = [
     title: "Clean Hallway & Room Corridors",
     category: "common",
     imageUrl: hotelCorridorImg,
-    altText: "Bright and clean hallway leading to the 16 AC rooms at Mazing House"
+    altText: "Bright and clean hallway leading to the 16 AC rooms at New Amazing House"
   },
   {
     id: "gal-7",
@@ -200,7 +201,7 @@ export const HOTEL_GALLERY: GalleryPhoto[] = [
     title: "Main Building Facade",
     category: "exterior",
     imageUrl: hotelHeroExteriorImg,
-    altText: "Mazing House front exterior architecture in Rohini Sector-25"
+    altText: "New Amazing House front exterior architecture in Rohini Sector-25"
   }
 ];
 

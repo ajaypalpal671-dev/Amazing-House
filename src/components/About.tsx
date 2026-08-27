@@ -19,7 +19,7 @@ export const About: React.FC<AboutProps> = ({ config, onOpenBooking }) => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-700">
               <img
                 src={hotelExteriorImg}
-                alt="Mazing House hotel building in Rohini Sector-25, Delhi"
+                alt="New Amazing House hotel building in Rohini Sector-25, Delhi"
                 className="w-full h-80 sm:h-96 object-cover object-center"
                 referrerPolicy="no-referrer"
               />
@@ -29,7 +29,7 @@ export const About: React.FC<AboutProps> = ({ config, onOpenBooking }) => {
                   16 AC Rooms
                 </span>
                 <p className="text-sm font-medium text-slate-200">
-                  Mazing House • Rohini Sector-25, Delhi
+                  New Amazing House • Rohini Sector-25, Delhi
                 </p>
               </div>
             </div>

@@ -81,7 +81,7 @@ export const AdminConfigHelper: React.FC<AdminConfigHelperProps> = ({
   const handleCopyCode = () => {
     const codeSnippet = `export const HOTEL_CONFIG: HotelConfig = {
   hotelName: "${tempName}",
-  address: "Rohini Sector-25, Delhi, India",
+  address: "Property Number 195, Block E, near Delhi School of Professional Studies And Research, Rohini Sector-25, Delhi, 110085, India",
   phoneNumber: "${tempPhone.replace(/\s+/g, '')}",
   phoneDisplay: "${tempPhone}",
   whatsappNumber: "${tempWhatsApp.replace(/[^0-9]/g, '')}",

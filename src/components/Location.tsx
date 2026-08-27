@@ -81,26 +81,38 @@ export const Location: React.FC<LocationProps> = ({ config }) => {
               </div>
 
               <div className="space-y-3 pt-2">
-                <div className="flex items-start gap-3 p-3 bg-slate-900 rounded-xl border border-slate-800">
+                <div className="flex items-start gap-3 p-3.5 bg-slate-900 rounded-xl border border-slate-800">
                   <div className="w-8 h-8 rounded-lg bg-amber-500/15 flex items-center justify-center text-amber-400 shrink-0 mt-0.5">
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
                     <div className="text-xs font-bold text-white">Complete Address</div>
-                    <div className="text-xs text-slate-400 mt-0.5">
-                      {config.address} (PIN: {config.pincode})
+                    <div className="text-xs text-slate-300 mt-0.5 font-medium leading-relaxed">
+                      {config.address}
                     </div>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3 p-3 bg-slate-900 rounded-xl border border-slate-800">
-                  <div className="w-8 h-8 rounded-lg bg-amber-500/15 flex items-center justify-center text-amber-400 shrink-0 mt-0.5">
+                <div className="flex items-start gap-3 p-3.5 bg-slate-900 rounded-xl border border-slate-800">
+                  <div className="w-8 h-8 rounded-lg bg-emerald-500/15 flex items-center justify-center text-emerald-400 shrink-0 mt-0.5">
+                    <Building className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <div className="text-xs font-bold text-white">Prominent Landmark</div>
+                    <div className="text-xs text-slate-300 mt-0.5">
+                      Near Delhi School of Professional Studies And Research (DSPSR) • Block E
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-3.5 bg-slate-900 rounded-xl border border-slate-800">
+                  <div className="w-8 h-8 rounded-lg bg-blue-500/15 flex items-center justify-center text-blue-400 shrink-0 mt-0.5">
                     <Car className="w-4 h-4" />
                   </div>
                   <div>
                     <div className="text-xs font-bold text-white">Cab & Auto Accessibility</div>
                     <div className="text-xs text-slate-400 mt-0.5">
-                      Easy pickup/drop points for Ola, Uber, and local Delhi auto-rickshaws.
+                      Seamless pickup & drop points for Ola, Uber, Rapido, and local Delhi auto-rickshaws right at Block E.
                     </div>
                   </div>
                 </div>

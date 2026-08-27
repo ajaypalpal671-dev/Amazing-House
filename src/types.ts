@@ -3,6 +3,7 @@ export interface HotelConfig {
   tagline: string;
   address: string;
   locality: string;
+  landmark?: string;
   city: string;
   state: string;
   country: string;

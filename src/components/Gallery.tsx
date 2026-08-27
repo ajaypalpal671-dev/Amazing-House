@@ -122,7 +122,7 @@ export const Gallery: React.FC = () => {
 
         {/* Real photo notice pill in gallery */}
         <div className="mt-8 text-center text-xs text-slate-400">
-          ✨ Verified hotel photos of Mazing House in Rohini Sector-25, Delhi (16 AC Rooms, Reception & Floor Corridors).
+          ✨ Verified hotel photos of New Amazing House in Rohini Sector-25, Delhi (16 AC Rooms, Reception & Floor Corridors).
         </div>
 
       </div>
