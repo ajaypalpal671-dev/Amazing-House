@@ -1,0 +1,6 @@
+{
+  "name": "Mazing House - Hotel in Rohini Sector-25",
+  "description": "Mazing House: A modern hotel featuring 16 air-conditioned rooms in Rohini Sector-25, Delhi, India with room booking, pricing, and WhatsApp integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
